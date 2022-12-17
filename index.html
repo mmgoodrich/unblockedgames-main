@@ -2,10 +2,137 @@
 <html>
 
     <head>
+	 <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #00FFFF;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    * {
+      text-align: center;
+    }
+  </style>
+
+
+
+  <div class="navbar">
+    <a href="/index.html"><b>UNBLOCKEDGAMES621</b></a>
+	<a href="/all-games-menu.html"><b>ALL GAMES</b></a>
+    <div class="dropdown">
+      <button class="dropbtn">Strategy &amp; Logic Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/80.html">Swords and Sandals 2</a>
+        <a href="/26.html">The Binding of Isaac</a>
+		<a href="/84.html">The World's Hardest Game</a>
+		<a href="/88.html">Bloxorz</a>
+		<a href="/8.html">Minecraft</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Platformer &amp; RPG Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+		<a href="/82.html">The Big Adventure of Owata's Life</a>
+		<a href="/87.html">Alien Hominid</a>
+		<a href="/89.html">Deep Freeze</a>
+		<a href="/91.html">Celeste Classic</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Action Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/7.html">Duck Life 3</a>
+		<a href="/90.html">FNAF 2</a>
+		<a href="/2.html">Death Run 3D</a>
+		<a href="/1.html">Temple Run 2</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Arcade Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+		<a href="/85.html">Pac-Man</a>
+		<a href="/86.html">Pac-Xon</a>
+        <a href="/81.html">Pokemon Emerald (GBA)</a>
+      </div>
+    </div>
+	    <div class="dropdown">
+      <button class="dropbtn">Horror Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="/93.html">We Become What We Behold</a>
+      </div>
+    </div>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <title>UnblockedGames621 | Unblocked Games Free Forever</title>
-      <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
         <meta property="og:title" content="Play unblocked games online" />
         <meta property="og:description" content="All of the most popular games playable in your browser! With games such as Subway Surfers, 1v1.lol, Retrobowl, Slope, and many more fun games!" />
         <link rel="stylesheet" href="css/style.css">
@@ -15,9 +142,10 @@
     <body>
             <!--Page Content Below-->
         <img id="userPhoto" class="animated rubberBand fast" src="images/logo.png" alt="Your Name's Photo">
-        <h1 class="animated jello game_title">Unblocked Games</h1>
+        <h1 class="animated jello game_title">Unblocked Games 621</h1>
         <div id="links" class="animated fadeInLeft delay-1s games">
-            <div class="game_title"><input placeholder="Search" id="search" class="search" onkeyup="search_it()" type="search"><select id="tags" class="button" onclick="search_it()"><option value="all">All</option><option value="pop">Popular</option><option value="two">Two Player</option></select></div>
+		
+			<div class="game_title"><input placeholder="Search" id="search" class="search" onkeyup="search_it()" type="search"><select id="tags" class="button" onclick="search_it()"><option value="all">All</option><option value="pop">Popular</option><option value="two">Two Player</option></select></div>
             <h2 class="animated jello game_title">All Games:</h2>
             <a id="1 (2048 game)" class="link" href="./play/1/" target="_blank"><span class="bar"></span><img src="./icons/one.jpg"><b>1 (2048 game)</b></a>
             <a id="100 Player Pong" class="glink" href="./play/100-player-pong/" target="_blank"><span class="bar"></span><img src="./icons/100pong.jpg"><b>100 Player Pong</b></a>
