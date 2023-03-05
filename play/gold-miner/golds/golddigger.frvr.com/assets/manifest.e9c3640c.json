@@ -1,0 +1,30 @@
+{
+  "short_name": "Gold Digger FRVR",
+  "name": "Gold Digger FRVR",
+  "icons": [
+    {
+      "src": "/assets/pwa-icon192x192.5f3ffd83.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/pwa-icon512x512.e3d9e126.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/?pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795",
+  "theme_color": "#3367D6",
+  "orientation": "portrait",
+  "ms_start_compatible": true,
+  "categories": [
+    "frvrgames",
+    "benjaminsen",
+    "brianmeidell"
+  ]
+}
