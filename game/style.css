@@ -36,10 +36,10 @@ body{
 }
 
 #userPhoto{
-    width: 0px;
-    height: 0px;
+    width: 64px;
+    height: 64px;
     display: block;
-    margin: 35px auto 20px;
+    margin: 1px auto 1px;
     border-radius: 0%;
 }
 
